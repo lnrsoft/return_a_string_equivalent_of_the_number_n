@@ -5,7 +5,7 @@ QString QString::number(double n, char format = 'g', int precision = 6) returns 
 Let’s see the following simple example. 
 There are 3 double values x, y, z.
 We want to return the result of the following equation: <br>
-(x /z) * y <br>
+(x / z) * (0.009613 * y) <br>
 We also want to allow the user to set the precision of the result.
 
 Here is how I do with Qt. 
