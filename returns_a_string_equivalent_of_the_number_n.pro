@@ -1,3 +1,5 @@
+# (c)  Roland Ihasz - https://github.com/lnrsoft
+
 QT += core
 QT -= gui
 
