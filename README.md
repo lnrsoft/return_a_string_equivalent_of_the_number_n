@@ -12,4 +12,4 @@ Note = there are many ways to solve this issue, much simpler, but this time I wa
 
 How to return a string equivalent of the number n using Qt was written by Roland Ihasz, you can modify or distribute. You can do anything you want with this software, just don't say you wrote it.
 
-More info on [wp-svg-icons icon="new-tab" wrap="i"]  doc.qt.io
+More info on doc.qt.io
