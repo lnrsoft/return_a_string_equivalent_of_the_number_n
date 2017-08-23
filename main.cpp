@@ -1,3 +1,5 @@
+// (c)  Roland Ihasz - https://github.com/lnrsoft
+
 #include <QCoreApplication>
 #include <iostream>
 #include <QDebug>
