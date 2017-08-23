@@ -1,4 +1,5 @@
 # How to use QString::number static public member function to return a specified format and precision.
+(c)  Roland Ihasz - https://lnrsoft.com
 
 QString QString::number(double n, char format = 'g', int precision = 6) returns a string equivalent of the number n, formatted according to the specified format and precision.  
 
