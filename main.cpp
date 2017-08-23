@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     double z = 6.6;
     double y = 3.3;
     int precision;
-    double result = (x / z) / y;
+    double result = (x / z) * (0.009613 * y);
     QVariant(result).toString();
     std::cout <<  "\nEnter the decimal places you want to round the result: ";
     std::cin >> precision;
