@@ -12,17 +12,18 @@ int main(int argc, char* argv[])
     double y = 3.398;
     int precision;
     double result = (x / z) * (5.961 / y);
-    QVariant(result).toString();
-    std::cout << "\nEnter the decimal places you want to round the result: ";
+    std::cout << "\nEnter the required precision of the result: ";
     std::cin >> precision;
     QString resultstring = QString::number(result, 'g', precision);
-    std::cout << "\n1.In this case the output is a double value." << std::endl;
-    std::cout << "The result by the compiler default setting is: " << result
-              << "\n" << std::endl;
-    std::cout << "2. Using the QString::number static member function."
+    std::cout << "\n1.In this case the output is a double value."
               << std::endl;
-    std::cout << "The result when we set the precision to " << precision << " is: "
-              << qPrintable(resultstring) << "\n" << std::endl;
+    std::cout << "The result by the compiler default setting is: "
+              << result << "\n" << std::endl;
+    std::cout << "2. Using the QString::number member function."
+              << std::endl;
+    std::cout << "The result when we set the precision to "
+              << precision << " is: " << qPrintable(resultstring)
+              << "\n" << std::endl;
     /*
      *  using qPrintable to remove qoutes from the output
     */
